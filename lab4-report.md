@@ -1,3 +1,4 @@
+<img src="11.PNG">
 # Практично-лабораторне заняття №4
 **Реалізація нової сутності, створення CRUD-операцій та відповідного RESTful API**
 
@@ -14,7 +15,7 @@
   - `updatedAt`: дата оновлення (автоматично)
 
 *Скріншот: створення сутності Post*  
-<img src="lab4_1.PNG" width="600" alt="Створення сутності Post">
+<img src="lab4_1.PNG" alt="Створення сутності Post">
 
 ---
 
@@ -24,7 +25,7 @@
 - Перевірити у базі даних (pgAdmin/psql), що таблиця створена коректно.  
 
 *Скріншот застосування міграції*  
-<img src="lab4_2.PNG" width="600" alt="Застосування міграції">
+<img src="lab4_2.PNG" alt="Застосування міграції">
 
 ---
 
@@ -37,8 +38,8 @@
 - **Delete:** видалення поста за ID  
 
 *Скріншоти контролера, DTO, роутера та сервісу:*  
-<img src="lab4_3.PNG" width="600" alt="REST API - контролер, DTO, роутер">  
-<br><img src="lab4_4.PNG" width="600" alt="REST API - сервіс">
+<img src="lab4_3.PNG" alt="REST API - контролер, DTO, роутер">  
+<br><img src="lab4_4.PNG" alt="REST API - сервіс">
 
 ---
 
@@ -51,9 +52,9 @@
   - У відповіді на запит користувача є масив його постів.  
 
 *Скріншоти моделей:*  
-<img src="lab4_5.PNG" width="600" alt="Модель User і Post - зв'язок">  
-<br><img src="lab4_6.PNG" width="600" alt="Модель Post з ManyToOne">  
-<br><img src="lab4_7.PNG" width="600" alt="Модель User з OneToMany">
+<img src="lab4_5.PNG" alt="Модель User і Post - зв'язок">  
+<br><img src="lab4_6.PNG" alt="Модель Post з ManyToOne">  
+<br><img src="lab4_7.PNG" alt="Модель User з OneToMany">
 
 ---
 
@@ -68,10 +69,10 @@
   - [опціонально] отримання постів разом із користувачем та навпаки  
 
 *Скріншоти тестів у Postman:*  
-<img src="lab4_8.PNG" width="600" alt="Postman - створення поста">  
-<br><img src="lab4_9.PNG" width="600" alt="Postman - отримання постів">  
-<br><img src="lab4_10.PNG" width="600" alt="Postman - оновлення поста">  
-<br><img src="lab4_11.PNG" width="600" alt="Postman - видалення поста">
+<img src="lab4_8.PNG" alt="Postman - створення поста">  
+<br><img src="lab4_9.PNG" alt="Postman - отримання постів">  
+<br><img src="lab4_10.PNG" alt="Postman - оновлення поста">  
+<br><img src="lab4_11.PNG" alt="Postman - видалення поста">
 
 ---
 
